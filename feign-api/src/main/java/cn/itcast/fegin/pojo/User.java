@@ -1,4 +1,4 @@
-package cn.itcast.order.pojo;
+package cn.itcast.fegin.pojo;
 
 import lombok.Data;
 
