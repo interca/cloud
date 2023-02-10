@@ -1,5 +1,5 @@
 server:
-  port: 8080
+  port: 8088
 spring:
   datasource:
     url: jdbc:mysql://localhost:3306/cloud_order?useSSL=false
@@ -11,6 +11,9 @@ spring:
   cloud:
     nacos:
       server-addr:  localhost:8848   #配置nacos服务地址\
+    sentinel:
+      transport:
+        dashboard: localhost:8080
       #discovery:
        # cluster-name:  HZ  #集群名称
         #namespace: 512f44cf-8cb6-419f-902b-e7e2cf035101  #配置命名空间
