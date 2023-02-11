@@ -14,9 +14,11 @@ spring:
     sentinel:
       transport:
         dashboard: localhost:8080
+      web-context-unify: false
+
       #discovery:
-       # cluster-name:  HZ  #集群名称
-        #namespace: 512f44cf-8cb6-419f-902b-e7e2cf035101  #配置命名空间
+      # cluster-name:  HZ  #集群名称
+      #namespace: 512f44cf-8cb6-419f-902b-e7e2cf035101  #配置命名空间
 mybatis:
   type-aliases-package: cn.itcast.user.pojo
   configuration:
